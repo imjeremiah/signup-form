@@ -22,10 +22,28 @@
         <p>You <em>know</em> you want to.</p>
       </div> 
       <div class="middle">
-        <p>FORM</p>
+        <p>Let's do this!</p>
+        <form>
+          <fieldset>
+            <label for="fname">FIRST NAME</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="email">EMAIL</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">PASSWORD</label><br>
+            <input type="password" id="password" name="password" required minlength="3"><br>
+          </fieldset>
+          <fieldset>
+            <label for="lname">LAST NAME</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="phone">PHONE NUMBER</label><br>
+            <input type="number" id="phone" name="phone"><br>
+            <label for="confirmpass">CONFIRM PASSWORD</label><br>
+            <input type="password" oninvalid="alert('Password must be at least 3 characters long')" id="confirmpass" name="confirmpass" required minlength="3">
+          </fieldset>
+        </form>  
       </div> 
       <div class="bottom">
-        <button>Create Account</button>
+        <button type="button">Create Account</button>
         <p>Already have an account? <a>Log in</a></p>
       </div> 
     </div>
