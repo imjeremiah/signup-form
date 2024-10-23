@@ -13,7 +13,7 @@
 
 body {
   display: flex;
-  text-align: center;
+  /* text-align: center; */
   justify-content: center;
   background-color:rgba(0, 0, 0, 0.95);
   font-family: sans-serif;
@@ -74,4 +74,53 @@ body {
 p.odin {
   padding-left: 10px;
   padding-top: 20px;
+}
+
+.top {
+  height: 33%;
+  font-weight:bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.first {
+  padding-top: 100px;
+}
+
+.middle {
+  height: 33%;
+  padding-left: 40px;
+  margin-top: 40px;
+  box-shadow: 0px 3px 6px gainsboro;
+}
+
+.bottom {
+  height: 33%;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+a {
+  font-weight: bold;
+  color: #596D48;
+}
+
+.bottom button {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #596D48;
+  border-radius: 5px;
+  border-style: none;
+  height: 40px;
+  width: 200px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 8px 0px gainsboro;
+}
+
+.middle {
+  background-color: white;
 }
